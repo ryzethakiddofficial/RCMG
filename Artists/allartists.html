@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Artists | Ryze Collective Media Group</title>
+    <link rel="stylesheet" href="../Assets/Styles/allartists.css">
+    <link rel="icon" href="../Assets/Images/Icons/Logo.ico" type="image/x-icon">
+    <!-- For modern browsers, you can also add this for better compatibility -->
+    <link rel="shortcut icon" href="../Assets/Images/Icons/RCMG.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="hero">
+        <div class="overlay"></div>
+
+        <nav class="navbar">
+            <a href="../index.html"><img src="../Assets/Images/Logo/nav.jpg" alt="Logo" class="nav-logo"></a>
+            <div class="nav-title">Ryze Collective Media Group</div>
+            <button class="menu-btn" onclick="toggleMenu()">☰</button>
+            <ul class="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../index.html#artists">Artists</a></li>
+                <li><a href="../index.html#services">Other Services</a></li>
+                <li><a href="../index.html#contact">Contact</a></li>
+                <li class="settings-dropdown">
+                    <button class="settings-icon" onclick="toggleSettingsMenu()" title="Settings">
+                        <i class="fas fa-cog"></i>
+                    </button>
+                    <div class="dropdown-menu">
+                        <label class="toggle-label">
+                            Effects
+                            <input type="checkbox" id="toggleEffects" class="toggle-input" checked>
+                            <span class="toggle-slider"></span>
+                        </label>                                                                                        
+                    </div>
+                </li>
+                <li class="legal-dropdown">
+                    <button class="legal-icon" onclick="toggleLegalMenu()" title="Privacy & Legal">
+                        <i class="fas fa-gavel"></i>
+                    </button>
+                    <div class="dropdown-menu">
+                        <a href="../Assets/Policies/privacy.html">Privacy Policy</a>
+                        <a href="../Assets/Policies/termsofservice.html">Terms of Service</a>
+                        <a href="../Assets/Policies/cookies.html">Cookie Policy</a>
+                        <a href="../Assets/Policies/disclaimer.html">Disclaimer</a>
+                    </div>
+                </li>           
+            </ul>
+        </nav>
+        
+        <!-- Mobile Menu -->
+        <ul class="mobile-menu">
+            <button class="close-menu-btn">X</button>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../index.html#artists">Artists</a></li>
+            <li><a href="../index.html#services">Other Services</a></li>
+            <li><a href="../index.html#contact">Contact</a></li>
+        </ul>
+
+        <!-- Hero Content -->
+        <div class="hero-content">
+            <h1>Our Artists</h1>
+            <a href="#artists" class="btn">View Our Artists</a>
+        </div>
+    </header>
+
+    <section id="artists" class="artist-section">
+        <h2>Our Artists</h2>
+        <div class="artist-grid">
+            <!-- Example Artist Card -->
+            <div class="artist-card" onclick="window.location.href='ryzethakidd.html'">
+                <img src="../Assets/Images/Artists/Ryze Tha Kidd.png" alt="Ryze Tha Kidd" class="artist-logo">
+                <h3>Ryze Tha Kidd</h3>
+                <p>Genre: Trap, Emo Rap, Melodic Rap, Grunge, Pop</p>
+                <a href="ryzethakidd.html" class="btn">View Profile</a>
+            </div>
+    
+            <div class="artist-card" onclick="window.location.href='lostgem.html'">
+                <img src="../Assets/Images/Artists/LostGem.png" alt="LostGem" class="artist-logo">
+                <h3>LostGem</h3>
+                <p>Genre: Trap, Emo Rap, Melodic Rap, Emo Pop</p>
+                <a href="lostgem.html" class="btn">View Profile</a>
+            </div>
+        </div>
+    </section>    
+
+    <footer>
+        <div class="footer-top">
+            <p>&copy; 2025 Ryze Collective Media Group. All rights reserved.</p>
+        </div>
+        <div class="footer-bottom">
+            <div class="legal">
+                <p><a href="../Assets/Policies/privacy.html" class="btn">Terms of Service</a></p>
+                <p><a href="../Assets/Policies/termsofservice.html" class="btn">Privacy Policy</a></p>
+                <p><a href="../Assets/Policies/cookies.html" class="btn">Cookie Policy</a></p>
+                <p><a href="../Assets/Policies/disclaimer.html" class="btn">Disclaimer</a></p>
+            </div>
+            <div class="contact">
+                <p><a href="../index.html#contact" class="btn">Contact Us</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../Assets/Scripts/main.js"></script>
+
+    <button id="backToTopBtn" title="Go to top">↑</button>
+</body>
+</html>

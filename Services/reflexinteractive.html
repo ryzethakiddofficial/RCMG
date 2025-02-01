@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ryze Tha Kidd - Ryze Collective Media Group</title>
+    <link rel="stylesheet" href="../Assets/Styles/artists.css">
+    <link rel="icon" href="../Assets/Images/Icons/Logo.ico" type="image/x-icon">
+    <!-- For modern browsers, you can also add this for better compatibility -->
+    <link rel="shortcut icon" href="../Assets/Images/Icons/RCMG.ico" type="image/x-icon">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header class="hero">
+        <div class="overlay"></div>
+
+        <nav class="navbar">
+            <a href="../index.html"><img src="../Assets/Images/Logo/nav.jpg" alt="Logo" class="nav-logo"></a>
+            <div class="nav-title">Ryze Collective Media Group</div>
+            <button class="menu-btn" onclick="toggleMenu()">☰</button>
+            <ul class="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../index.html#artists">Artists</a></li>
+                <li><a href="../index.html#services">Other Services</a></li>
+                <li><a href="../index.html#contact">Contact</a></li>
+                <li class="settings-dropdown">
+                    <button class="settings-icon" onclick="toggleSettingsMenu()" title="Settings">
+                        <i class="fas fa-cog"></i>
+                    </button>
+                    <div class="dropdown-menu">
+                        <label class="toggle-label">
+                            Effects
+                            <input type="checkbox" id="toggleEffects" class="toggle-input" checked>
+                            <span class="toggle-slider"></span>
+                        </label>                                                                                        
+                    </div>
+                </li>
+                <li class="legal-dropdown">
+                    <button class="legal-icon" onclick="toggleLegalMenu()" title="Privacy & Legal">
+                        <i class="fas fa-gavel"></i>
+                    </button>
+                    <div class="dropdown-menu">
+                        <a href="../Assets/Policies/privacy.html">Privacy Policy</a>
+                        <a href="../Assets/Policies/termsofservice.html">Terms of Service</a>
+                        <a href="../Assets/Policies/cookies.html">Cookie Policy</a>
+                        <a href="../Assets/Policies/disclaimer.html">Disclaimer</a>
+                    </div>
+                </li>           
+            </ul>
+        </nav>
+        
+        <!-- Mobile Menu -->
+        <ul class="mobile-menu">
+            <button class="close-menu-btn">X</button>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../index.html#artists">Artists</a></li>
+            <li><a href="../index.html#services">Other Services</a></li>
+            <li><a href="../index.html#contact">Contact</a></li>
+        </ul>
+
+        <!-- Hero Content -->
+        <div class="hero-content">
+            <h1>Reflex Interactive</h1>
+            <a href="#bio" class="btn">View Biography</a>
+        </div>
+
+        <img src="../Assets/Images/Logo/Reflex Interactive Logo.jpg" class="artist-logo">
+    </header>
+
+    <main>
+        <section id="bio" class="section">
+            <h2>Brief Look at Reflex Interactive</h2>
+            <div class="section-content">
+                <p>Reflex Interactive is a forward-thinking game studio based under Ryze Collective Media Group (RCMG). Founded with the vision of pushing boundaries in game development, Reflex Interactive focuses on creating immersive, high-quality gaming experiences that leave lasting impressions. With a blend of creativity, technical expertise, and a passion for gaming culture, Reflex Interactive is dedicated to producing games that players can not only enjoy but truly connect with.</p>
+                <p>At Reflex Interactive, we believe in a hands-on approach to game development. Our team of talented developers, designers, and storytellers work together to build engaging worlds, intricate mechanics, and unforgettable characters. Whether we're working on an action-packed shooter or an atmospheric indie game, we prioritize innovation and player experience at every step of the development process. Every game we create is a testament to our commitment to quality and our love for the art of gaming.</p>
+                <p>Our goal is simple: to create games that make a difference. From the first concept to the final release, Reflex Interactive is passionate about bringing new ideas to life. We pride ourselves on being a studio that isn’t afraid to take risks and experiment with different genres and game mechanics. Our games aren’t just products; they are worlds filled with stories, challenges, and opportunities for players to lose themselves in.</p>
+                <p>As part of RCMG, Reflex Interactive is supported by a network that helps our games reach the right audience, ensuring they get the exposure they deserve. Through collaborations with artists, musicians, and other creators, we aim to create games that are not just fun to play, but also meaningful and memorable.</p>
+                <p>Join us on our journey as we continue to shape the future of gaming, one release at a time.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-top">
+            <p>&copy; 2025 Ryze Collective Media Group. All rights reserved.</p>
+        </div>
+        <div class="footer-bottom">
+            <div class="legal">
+                <p><a href="../Assets/Policies/privacy.html" class="btn">Terms of Service</a></p>
+                <p><a href="../Assets/Policies/termsofservice.html" class="btn">Privacy Policy</a></p>
+                <p><a href="../Assets/Policies/cookies.html" class="btn">Cookie Policy</a></p>
+                <p><a href="../Assets/Policies/disclaimer.html" class="btn">Disclaimer</a></p>
+            </div>
+            <div class="contact">
+                <p><a href="../index.html#contact" class="btn">Contact Us</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../Assets/Scripts/main.js"></script>
+
+    <!-- Back to Top Button -->
+    <button id="backToTopBtn" title="Go to top">↑</button>
+</body>
+</html>

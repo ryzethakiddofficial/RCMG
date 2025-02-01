@@ -1,0 +1,13 @@
+@import url(artists.css);
+
+body, html {
+    background-color: black;;
+}
+
+.artist-section h2 {
+    font-size: 2.6rem;
+    margin-bottom: 10px;
+    font-weight: 700;
+    color: #f53;
+    text-align: center;
+}
