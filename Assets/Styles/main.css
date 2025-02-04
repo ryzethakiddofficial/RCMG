@@ -319,7 +319,8 @@ header.hero .overlay {
 
 .menu-btn {
 	background: 0 0;
-	font-size: 24px
+	font-size: 24px;
+	display: none;
 }
 
 /* Positioning for the close button */
