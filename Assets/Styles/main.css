@@ -790,6 +790,7 @@ footer {
 		font-size: 12px;
 	}
 	.navbar {
+		display: none;
 		padding: 4px 6px;
 	}
 	.nav-logo {
@@ -807,6 +808,291 @@ footer {
 	.mobile-menu {
 		display: none !important;
 	}
+}
+
+@media only screen and (max-width: 1024px) {
+    /* Adjust navbar layout and padding */
+    .navbar {
+        padding: 15px 10px;
+    }
+    
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        gap: 30px;  /* Increased spacing */
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+    }
+
+    .nav-links a {
+        font-size: 18px;
+        padding: 8px 16px;  /* Adjusted padding for better clickability */
+    }
+
+    /* Adjust nav-title font size */
+    .nav-title {
+        font-size: 22px;  /* Smaller font size for mobile */
+    }
+
+	.menu-btn {
+		display: block;
+		font-size: 28px; /* Adjust this value to make the icon bigger or smaller */
+	}	
+
+    /* Zoom out the website for better fit */
+    body {
+        transform: scale(0.9);
+        transform-origin: top;
+		width: 100%; /* Use full width */
+        overflow-x: hidden; /* Prevent horizontal overflow */
+    }
+    
+    /* Adjust hero section text */
+    .hero-content h1 {
+        font-size: 2rem;  /* Reduce size for mobile */
+    }
+
+    .hero-content p {
+        font-size: 1rem;  /* Adjust text size for mobile */
+        max-width: 100%;
+    }
+    
+    /* Mobile menu styles */
+    .mobile-menu {
+        display: none;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    /* Fix button styling for mobile */
+    .mobile-menu a {
+        font-size: 20px;
+    }
+
+    /* Back to top button */
+    #backToTopBtn {
+        bottom: 20px;
+        right: 20px;
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    /* Adjust navbar links */
+    .navbar {
+        padding: 15px 10px;
+    }
+    
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        gap: 30px;  /* Increased spacing */
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+    }
+
+    .nav-links a {
+        font-size: 18px;
+        padding: 8px 16px;  /* Adjusted padding for better clickability */
+    }
+
+    /* Adjust nav-title font size */
+    .nav-title {
+        font-size: 22px;  /* Smaller font size for mobile */
+    }
+
+	.menu-btn {
+		display: block;
+		font-size: 28px; /* Adjust this value to make the icon bigger or smaller */
+	}	
+
+    /* Zoom out the website for better fit */
+    body {
+        transform: scale(0.8);
+        transform-origin: top;
+		width: 100%; /* Use full width */
+        overflow-x: hidden; /* Prevent horizontal overflow */
+    }
+    
+    /* Adjust hero section text */
+    .hero-content h1 {
+        font-size: 2rem;  /* Reduce size for mobile */
+    }
+
+    .hero-content p {
+        font-size: 1rem;  /* Adjust text size for mobile */
+        max-width: 100%;
+    }
+    
+    /* Mobile menu styles */
+    .mobile-menu {
+        display: none;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    /* Fix button styling for mobile */
+    .mobile-menu a {
+        font-size: 20px;
+    }
+
+    /* Back to top button */
+    #backToTopBtn {
+        bottom: 20px;
+        right: 20px;
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    /* Adjust navbar links */
+    .navbar {
+        padding: 15px 10px;
+    }
+    
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        gap: 30px;  /* Increased spacing */
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+    }
+
+    .nav-links a {
+        font-size: 18px;
+        padding: 8px 16px;  /* Adjusted padding for better clickability */
+    }
+
+    /* Adjust nav-title font size */
+    .nav-title {
+        font-size: 22px;  /* Smaller font size for mobile */
+    }
+
+	.menu-btn {
+		display: block;
+		font-size: 28px; /* Adjust this value to make the icon bigger or smaller */
+	}	
+
+    /* Zoom out the website for better fit */
+    body {
+        transform: scale(0.7);
+        transform-origin: top;
+		width: 100%; /* Use full width */
+        overflow-x: hidden; /* Prevent horizontal overflow */
+    }
+    
+    /* Adjust hero section text */
+    .hero-content h1 {
+        font-size: 2rem;  /* Reduce size for mobile */
+    }
+
+    .hero-content p {
+        font-size: 1rem;  /* Adjust text size for mobile */
+        max-width: 100%;
+    }
+    
+    /* Mobile menu styles */
+    .mobile-menu {
+        display: none;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    /* Fix button styling for mobile */
+    .mobile-menu a {
+        font-size: 20px;
+    }
+
+    /* Back to top button */
+    #backToTopBtn {
+        bottom: 20px;
+        right: 20px;
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 319) {
+    /* Adjust navbar links */
+    .navbar {
+        padding: 15px 10px;
+    }
+    
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        gap: 30px;  /* Increased spacing */
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+    }
+
+    .nav-links a {
+        font-size: 18px;
+        padding: 8px 16px;  /* Adjusted padding for better clickability */
+    }
+
+    /* Adjust nav-title font size */
+    .nav-title {
+        font-size: 22px;  /* Smaller font size for mobile */
+    }
+
+	.menu-btn {
+		display: block;
+		font-size: 28px; /* Adjust this value to make the icon bigger or smaller */
+	}	
+
+    /* Zoom out the website for better fit */
+    body {
+        transform: scale(0.6);
+        transform-origin: top;
+		width: 100%; /* Use full width */
+        overflow-x: hidden; /* Prevent horizontal overflow */
+    }
+    
+    /* Adjust hero section text */
+    .hero-content h1 {
+        font-size: 2rem;  /* Reduce size for mobile */
+    }
+
+    .hero-content p {
+        font-size: 1rem;  /* Adjust text size for mobile */
+        max-width: 100%;
+    }
+    
+    /* Mobile menu styles */
+    .mobile-menu {
+        display: none;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    /* Fix button styling for mobile */
+    .mobile-menu a {
+        font-size: 20px;
+    }
+
+    /* Back to top button */
+    #backToTopBtn {
+        bottom: 20px;
+        right: 20px;
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+    }
+}
+
+/* Ensure viewport zooming works properly on mobile devices */
+meta[name="viewport"] {
+    content: width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no;
 }
 
 @keyframes rainbowBorder {
