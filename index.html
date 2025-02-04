@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Ryze Collective Media Group</title>
+    <link rel="stylesheet" href="Assets/Styles/main.css">
+    <link rel="icon" href="Assets/Images/Icons/Logo.ico" type="image/x-icon">
+    <!-- For modern browsers, you can also add this for better compatibility -->
+    <link rel="shortcut icon" href="Assets/Images/Icons/RCMG.ico" type="image/x-icon">
+</head>
+
+<body id="top">
+    <!-- Header Section -->
+    <header class="hero">
+        <div class="overlay"></div>
+
+        <nav class="navbar">
+            <a href="index.html"><img src="Assets/Images/Logo/nav.jpg" alt="Logo" class="nav-logo"></a>
+            <div class="nav-title">Ryze Collective Media Group</div>
+            <button class="menu-btn" onclick="toggleMenu()">☰</button>
+            <ul class="nav-links">
+                <li><a href="#top">Home</a></li>
+                <li><a href="#artists">Artists</a></li>
+                <li><a href="#services">Other Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li class="settings-dropdown">
+                    <button class="settings-icon" onclick="toggleSettingsMenu()" title="Settings">
+                        <i class="fas fa-cog"></i>
+                    </button>
+                    <div class="dropdown-menu">
+                        <label class="toggle-label">
+                            Effects
+                            <input type="checkbox" id="toggleEffects" class="toggle-input" checked>
+                            <span class="toggle-slider"></span>
+                        </label>                                                 
+                    </div>
+                </li>
+                <li class="legal-dropdown">
+                    <button class="legal-icon" onclick="toggleLegalMenu()" title="Privacy & Legal">
+                        <i class="fas fa-gavel"></i>
+                    </button>
+                    <div class="dropdown-menu">
+                        <a href="Assets/Policies/privacy.html">Privacy Policy</a>
+                        <a href="Assets/Policies/termsofservice.html">Terms of Service</a>
+                        <a href="Assets/Policies/cookies.html">Cookie Policy</a>
+                        <a href="Assets/Policies/disclaimer.html">Disclaimer</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Mobile Menu -->
+        <ul class="mobile-menu">
+            <button class="close-menu-btn">X</button>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#artists">Artists</a></li>
+            <li><a href="#services">Other Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>        
+
+        <!-- Hero Content -->
+        <div class="hero-content" id="home">
+            <h1>Welcome to Ryze Collective Media Group</h1>
+            <a href="#about" class="btn">About Us</a>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="section">
+            <h2>About RCMG</h2>
+            <div class="section-content">
+                <p>
+                    Ryze Collective Media Group (RCMG) is not just a record label—it’s a movement. We are a team of passionate individuals united by a shared vision to elevate and empower artists across all musical genres. Our purpose is to provide a platform where both emerging talents and established stars can come together, collaborate, and explore new creative horizons. At RCMG, we believe in the power of music to change the world, and we’re committed to helping our artists reach their fullest potential.
+                    <br><br>
+                    We don’t just produce music; we create experiences. Our approach blends artistic freedom with cutting-edge production techniques and innovative marketing strategies, ensuring that each artist’s voice resonates powerfully in the global music landscape. We understand that every artist is unique, which is why we offer personalized support that helps them thrive in a rapidly changing industry. Whether it’s through access to world-class producers, the latest in digital marketing tools, or global distribution networks, RCMG gives our artists the resources they need to make their mark on the world.
+                    <br><br>
+                    What sets us apart is our unwavering commitment to authenticity. We believe that music should be true to the artist, and our focus is always on capturing the raw emotion and essence of every song. At Ryze Collective Media Group, we don’t just make music—we build legacies. We’re here to help our artists not only succeed in their careers but to create a lasting impact that will inspire generations to come.
+                </p>
+            </div>
+        </section>
+
+        <!-- Section for Artists -->
+        <section id="artists" class="section">
+            <h2><a href="Artists/allartists.html">Our Artists</a></h2>
+            <div class="artist-grid">
+                <div class="artist-card" onclick="window.location.href='Artists/ryzethakidd.html'">
+                    <h3>Ryze Tha Kidd</h3>
+                    <p>
+                        Ryze Tha Kidd is the founder of Ryze Collective Media Group and a dynamic force in the music industry. His innovative approach to music and his passion for empowering artists have shaped the direction of RCMG. Discover his latest tracks and follow his journey through social media.
+                    </p>
+                </div>
+        
+                <div class="artist-card" onclick="window.location.href='Artists/lostgem.html'">
+                    <h3>LostGem</h3>
+                    <p>
+                        LostGem, one of RCMG's co-founders, brings a unique sound and vision to the collective. Known for her creativity and genre-blending style, she continues to redefine the music scene. Stay updated on her work by following her on social media.
+                    </p>
+                </div>
+            </div>
+        </section>        
+
+        <section id="services" class="section">
+            <h2>Other Services</h2>
+            <div class="feature-grid">
+                <div class="feature-card" onclick="window.location.href='Services/reflexinteractive.html'">
+                    <h3>Reflex Interactive</h3>
+                    <p>
+                        Reflex Interactive, our in-house game studio, specializes in game development and publishing. We create innovative and immersive gaming experiences, pushing the boundaries of interactive entertainment. Explore our latest projects and discover the future of gaming with Reflex Interactive.
+                    </p>
+                </div>
+        
+                <!-- <div class="feature-card" onclick="window.location.href='Services/ryzevfxfilms.html'">
+                    <h3>Ryze VFX Films</h3>
+                    <p>
+                        Ryze VFX Films is our dedicated video production company, specializing in creating high-quality music videos and behind-the-scenes content. With a focus on cinematic storytelling and cutting-edge visual effects, we bring your music to life through powerful visuals.
+                    </p>
+                </div> -->
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contact Us</h2>
+            <div class="contact-form-container">
+                <form class="contact-form" action="https://formspree.io/f/movvrror" method="post">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                    
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-top">
+            <p>&copy; 2025 Ryze Collective Media Group. All rights reserved.</p>
+        </div>
+        <div class="footer-bottom">
+            <div class="legal">
+                <p><a href="Assets/Policies/privacy.html" class="btn">Terms of Service</a></p>
+                <p><a href="Assets/Policies/termsofservice.html" class="btn">Privacy Policy</a></p>
+                <p><a href="Assets/Policies/cookies.html" class="btn">Cookie Policy</a></p>
+                <p><a href="Assets/Policies/disclaimer.html" class="btn">Disclaimer</a></p>
+            </div>
+            <div class="contact">
+                <p><a href="#contact" class="btn">Contact Us</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="Assets/Scripts/main.js"></script>
+
+    <!-- Back to Top Button -->
+    <button id="backToTopBtn" title="Go to top">↑</button>
+</body>
+
+</html>
